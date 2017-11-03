@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --grid-gap: 10px;
+}
+
+.container {
+    display: grid;
+    grid-gap: var(--grid-gap);
+    grid-template-rows: 60px auto auto auto 40px;
+    width: auto;
+    margin: var(--grid-gap);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* this makes the <li> in the nav bar go horizontal */
+nav ul {
+    display: flex;
+}
+
+/* this goes in css style */
+header {
+    background-color: rgb(237, 238, 239);
+}
+
+nav a {
+    text-decoration: none;
+}
+
+ul { 
+    list-style: none 
+}
+
+h1, li {
+    padding: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6  {
+    font-family: 'Roboto Slab', serif;
+}
+
+p, a, address {
+    font-family: 'Open Sans', sans-serif;
+}
+
