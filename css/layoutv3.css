@@ -50,10 +50,6 @@ header nav ul{
     padding: 20px;
 }
 
-#gmail-link {
-    width: 76px;
-    height: 76px;
-}
 .main__about_bio_links li{
     display: flex;
 }
