@@ -3,21 +3,46 @@
     margin: 0;
     padding: 0;
 }
+
 :root {
     --grid-gap: 20px;
 }
 
 .container {
     display: grid;
-    grid-gap: var(--grid-gap);
-    grid-template-rows: 60px auto auto auto 40px;
+    grid-template-rows: 100vh auto 40px;
     width: auto;
-    margin: var(--grid-gap);
 }
+
+header {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), 
+    url("../images/pexels-photo-275632.jpeg");
+    background-color: rgb(32, 152, 209);
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-rows: 1fr 8fr 2fr;
+  }
+
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 .main__about {
     display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
 }
+
 
 .main__about_bio {
     display: flex;
@@ -27,36 +52,30 @@
     display: flex;
 }
 
+/* this makes things equal sizes */
+/*
 .main__about_bio > * {
     flex-grow: 1;
     flex-basis: 250px;
-}
+}*/
 
 
 .skills {
     display: flex;
 } 
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 footer {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-/* this makes the <li> in the nav bar go horizontal */
-nav ul {
-    display: flex;
-}
 
 /* this goes in css style */
 
 
 
+/*
 * {
     border: 1px dotted #000;
 }
@@ -64,16 +83,11 @@ nav ul {
 * {
     border: 1px dotted hotpink;
 }
+*/
 
 .main__about {
     border: 1px solid blue;
 }
-
-header {
-    background-color: rgb(32, 152, 209);
-}
-
-
 
 
 a {
@@ -84,21 +98,15 @@ ul {
     list-style: none 
 }
 
-h1, li {
+li a {
     padding: 1rem;
 }
 
-
-h1, h2, h3, h4, h5, h6  {
-    font-family: 'Roboto Slab', serif;
+h2, h3, h4, h5, h6, body {
+    font-family: Georgia, serif;
 }
 
 
-
-
-p, a, address, li {
-    font-family: 'Open Sans', sans-serif;
-}
 
 footer {
     font-size: .7rem;
@@ -108,19 +116,32 @@ footer {
     font-style: italic;
 }
 
+/*
 a:visited, a {
     color: #333;
+}*/
+
+
+header a:visited, header a, .heading{
+    color: #fff;
+} 
+
+header h1 {
+    font-size: 3.9rem;
 }
 
-/*
-a:visited, a, h1{
-    color: rgb(255, 249, 243);
-} white text for on blue background */
+header h2 {
+    font-size: 1.7rem;
+}
+
+header h1 {
+    font-family: Inconsolata;
+}
 
 a:hover {
     color: #999;
 }
 
-h1, h2{
+h2{
     font-weight: normal;
 }
