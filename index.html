@@ -20,8 +20,6 @@
 						About Me</a></li>
 					<li><a  href="#portfolio">
 						Portfolio</a></li>
-					<li><a  href="#wcciProjects">
-						WeCanCodeIT Projects</a></li>
 				</ul>
 			</nav>
 			<div class="heading">
@@ -85,13 +83,56 @@
 							</div>
 					</div> <!-- end div for skills_column_data */ -->						
 				</div> <!-- end div for main__about_skills */ -->
-													
 			</section>
-			<section class = "main__portfolio">
+			<section>
+			<div class = "main__portfolio">
 				<h2 id="portfolio">Portfolio</h2>
-			</section>
-			<section class = "main__wcciProjects">
-				<h2 id="wcciProjects">My WCCI Projects</h2>
+       		    <article class="card">
+                    <a href="https://github.com/mwzig/virtual-pets-amok"><h3>Virtual Pets Amok</h3></a>
+                    <div class="card_row">
+	                    <div>
+	                    	<img src="./images/virtual-pets-amok-screen-shot.png"/>
+	                    </div>
+	                    <ul> Technologies/Tools Used
+	                    	<li>Java class and interface design</li>
+	                    	<li>Inheritance and polymorphism</li>
+	                    	<li>MVC, Java Map & HashMap</li>
+	                    	<li>JUnit testing</li>
+	                    </ul>
+	                    <p>This is a fairly complex program involving organic and robotic dogs and cats with generic parent classes.  The shelter houses all types of animals, and there are methods to feed and water animals that depend on passing the generic type and using instanceof to determine which method to call.
+	                    </p>
+                    </div>
+                </article>
+                <article class="card">
+                    <a href="https://github.com/mwzig/pizza-reviews"><h3>Pizza Reviews</h3></a>
+                    <div>
+                    	<img src="./images/pizza-review.png"/>
+                    </div>
+                    <ul> Technologies/Tools Used
+                    	<li>MVC</li>
+                    	<li>Spring</li>
+                    	<li>Thymeleaf</li>
+                    	<li>HTML & CSS</li>
+                    </ul>
+                    <p>This is my first full-stack application using Spring and Thymeleaf for the back-end, and HTML and CSS for the front-end.  It is a many-to-one design that first lists a set of reviews, and the user can click on a review to see the details.   It uses a hashMap internally to represent a database of reviews.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <a href="https://github.com/mwzig/redo-website"><h3>Re-Design a Website</h3></a>
+                    <div>
+                    	<img src="./images/redo-website.png"/>
+                    </div>
+                    <ul> Technologies/Tools Used
+                    	<li>HTML</li>
+                    	<li>CSS</li>
+                    	<li>CSS Grid and Flexbox</li>
+                    </ul>
+                    <p>This is a short in-class (afternoon) learning project to use CSS Grid and Flexbox to re-design an existing website.   I had to first modify code to remove embedded CSS, and then restructure the content.  I then came up with a cleaner design layout, and along with assistance selecting fonts and a background color, made an improved and more appealing site. The inspiration site is <a href=http://www.exmouth-view.co.uk ></a>.                  
+                    </p>
+                </article>
+               
+            </div>
 			</section>
 		</main>
 		<footer>
