@@ -28,6 +28,7 @@ header {
 header nav ul{
     display: flex;
     justify-content: flex-end;
+    margin-top: 10px;
 }
 
 .heading {
@@ -40,23 +41,29 @@ header nav ul{
 
 
 
-.main__about_bio {
+
+.main__about_bio, .main__about_skills{
     width: 55vw;
     margin: auto;
     display: flex;
 }
 
-.main__about_bio img, main__about_bio p {
+ 
+
+.main__about_bio img, main__about_bio p, 
+.main__about_skills img, .main__about_skills ul{
     padding: 20px;
+}
+
+.main__about_skills img, .main__about_skills ul {
+    margin-top: 15px;
 }
 
 #gmail-link {
     width: 76px;
     height: 76px;
 }
-.main__about_bio_links li{
-    display: flex;
-}
+
 
 /* this makes things equal sizes */
 /*
@@ -66,9 +73,7 @@ header nav ul{
 }*/
 
 
-.skills {
-    display: flex;
-} 
+
 
 
 footer {
@@ -141,7 +146,7 @@ header h2 {
 }
 
 header h1 {
-    font-family: Inconsolata;
+    font-family: Inconsolata, monospace;
 }
 
 a:hover {
