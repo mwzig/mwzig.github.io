@@ -62,7 +62,7 @@ header nav ul{
     width: 50vh;
 }
 
-.main__about_bio img, main__about_bio p, 
+.main__about_bio img, .main__about_bio p, 
 .main__about_skills img, .main__about_skills ul{
     padding: 20px;
 }
@@ -166,6 +166,10 @@ header h2 {
 
 header h1, h2, h3{
     font-family: Inconsolata, monospace;
+}
+
+main h2, main h3 {
+    text-transform: uppercase;
 }
 
 a:hover {
