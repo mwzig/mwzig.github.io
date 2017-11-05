@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --grid-gap: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 100vh auto 40px;
+    width: auto;
+}
+
+header {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), 
+    url("../images/pexels-photo-275632.jpeg");
+    background-color: rgb(32, 152, 209);
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-rows: 1fr 8fr 2fr;
+  }
+
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main__about_bio {
+    width: 55vw;
+    margin: auto;
+    display: flex;
+}
+
+.main__about_skills {
+    width: 60vw;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 2;
+}
+
+
+.skills_column_data {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+}
+
+#skills-img, #mz-img{
+    width: 100%;
+}
+
+.main__about_bio img, main__about_bio p, 
+.main__about_skills img, .main__about_skills ul{
+    padding: 20px;
+}
+
+.main__about_skills img, .main__about_skills ul {
+    margin-top: 15px;
+}
+
+#gmail-link {
+    width: 76px;
+    height: 76px;
+}
+
+.main__about_skills img {
+    width: 100%;
+}
+
+/* this makes things equal sizes */
+/*
+.main__about_bio > * {
+    flex-grow: 1;
+    flex-basis: 250px;
+}*/
+
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* this goes in css style */
+
+
+
+/*
+* {
+    border: 1px dotted #000;
+}
+
+* {
+    border: 1px dotted hotpink;
+}
+*/
+
+.main__about {
+    border: 1px solid blue;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul { 
+    list-style: none 
+}
+
+li a {
+    padding: 1rem;
+}
+
+h2, h3, h4, h5, h6, body {
+    font-family: Georgia, serif;
+}
+
+
+
+footer {
+    font-size: .7rem;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/*
+a:visited, a {
+    color: #333;
+}*/
+
+
+header a:visited, header a, .heading{
+    color: #fff;
+} 
+
+header h1 {
+    font-size: 3.9rem;
+}
+
+header h2 {
+    font-size: 1.7rem;
+}
+
+header h1 {
+    font-family: Inconsolata, monospace;
+}
+
+a:hover {
+    color: #999;
+}
+
+h2{
+    font-weight: normal;
+}

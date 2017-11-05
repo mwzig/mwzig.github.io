@@ -38,17 +38,29 @@ header nav ul{
     justify-content: center;
 }
 
-
-
-
-
-.main__about_bio, .main__about_skills{
-    width: 55vw;
+.main__about_skills, .main__about_bio {
+    width: 60vw;
     margin: auto;
-    display: flex;
+    display: grid;
+    grid-template-rows: 2;
 }
 
- 
+.odd_row_for_color {
+    background-color: #dedede;
+}
+.aboutme_column_data {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.skills_column_data {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#skills-img, #mz-img {
+    width: 50vh;
+}
 
 .main__about_bio img, main__about_bio p, 
 .main__about_skills img, .main__about_skills ul{
@@ -59,11 +71,18 @@ header nav ul{
     margin-top: 15px;
 }
 
+h2, h3 {
+    margin-top: 15px;
+
+}
 #gmail-link {
     width: 76px;
     height: 76px;
 }
 
+.main__about_skills img {
+    width: 100%;
+}
 
 /* this makes things equal sizes */
 /*
@@ -113,7 +132,7 @@ li a {
     padding: 1rem;
 }
 
-h2, h3, h4, h5, h6, body {
+h4, h5, h6, body {
     font-family: Georgia, serif;
 }
 
@@ -145,7 +164,7 @@ header h2 {
     font-size: 1.7rem;
 }
 
-header h1 {
+header h1, h2, h3{
     font-family: Inconsolata, monospace;
 }
 
