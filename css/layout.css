@@ -76,18 +76,15 @@ header nav ul{
     width: 60vw;
     margin: auto;
     display: grid;
-    grid-template-rows: 4;
-}
-
-.card {
-    display: grid;
     grid-template-rows: 2;
 }
 
-.card_row {
+.cards_across {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
 }
+
 
 h2, h3 {
     margin-top: 15px;
@@ -106,7 +103,7 @@ h2, h3 {
     height: 76px;
 }
 
-.main__about_skills img {
+.main__about_skills img, .card img {
     width: 100%;
 }
 
@@ -154,6 +151,7 @@ ul {
     list-style: none 
 }
 
+
 li a {
     padding: 1rem;
 }
@@ -162,6 +160,9 @@ h4, h5, h6, body {
     font-family: Georgia, serif;
 }
 
+article p {
+    padding-top: 1rem;
+}
 
 
 footer {
@@ -172,6 +173,9 @@ footer {
     font-style: italic;
 }
 
+.bold-label {
+    font-weight: bold;
+}
 /*
 a:visited, a {
     color: #333;
