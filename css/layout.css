@@ -127,22 +127,6 @@ footer {
 /* this goes in css style */
 
 
-
-/*
-* {
-    border: 1px dotted #000;
-}
-
-* {
-    border: 1px dotted hotpink;
-}
-*/
-
-.main__about {
-    border: 1px solid blue;
-}
-
-
 a {
     text-decoration: none;
 }
@@ -162,11 +146,17 @@ h4, h5, h6, body {
 
 article p {
     padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
+article h3 {
+    padding-bottom: .5rem;
+}
 
 footer {
     font-size: .7rem;
+    padding-top: 1rem;
+
 }
 
 .italic {
