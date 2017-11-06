@@ -1,0 +1,82 @@
+
+h2, h3 {
+    margin-top: 15px;
+}
+
+.odd_row_for_color {
+    background-color: #dedede;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul { 
+    list-style: none 
+}
+
+li a {
+    padding: 1rem;
+}
+
+article p {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+article h3 {
+    padding-bottom: .5rem;
+}
+
+footer {
+    font-size: .7rem;
+    padding-top: 1rem;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold-label {
+    font-weight: bold;
+}
+
+header a:visited, header a, .heading{
+    color: #fff;
+} 
+
+a:hover {
+    color: #999;
+}
+
+header h1 {
+    font-size: 3.9rem;
+}
+
+header h2 {
+    font-size: 1.7rem;
+}
+
+header h1, h2, h3{
+    font-family: Inconsolata, monospace;
+}
+
+main h2, main h3 {
+    text-transform: uppercase;
+}
+
+header h1, h2, h3{
+    font-family: Inconsolata, monospace;
+}
+
+h4, h5, h6, body {
+    font-family: Georgia, serif;
+}
+
+main h2, main h3 {
+    text-transform: uppercase;
+}
+
+h2{
+    font-weight: normal;
+}

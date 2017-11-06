@@ -24,7 +24,6 @@ header {
     grid-template-rows: 1fr 8fr 2fr;
   }
 
-
 header nav ul{
     display: flex;
     justify-content: flex-end;
@@ -78,7 +77,7 @@ header nav ul{
 .cards_across {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 20px;
+    grid-column-gap: var(--grid-gap);
 }
 
 #gmail-link {
@@ -97,96 +96,8 @@ header nav ul{
     flex-basis: 250px;
 }*/
 
-
-
-
-
 footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-/* this goes in css style */
-
-h2, h3 {
-    margin-top: 15px;
-}
-
-
-.odd_row_for_color {
-    background-color: #dedede;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul { 
-    list-style: none 
-}
-
-
-li a {
-    padding: 1rem;
-}
-
-h4, h5, h6, body {
-    font-family: Georgia, serif;
-}
-
-article p {
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-}
-
-article h3 {
-    padding-bottom: .5rem;
-}
-
-footer {
-    font-size: .7rem;
-    padding-top: 1rem;
-
-}
-
-.italic {
-    font-style: italic;
-}
-
-.bold-label {
-    font-weight: bold;
-}
-/*
-a:visited, a {
-    color: #333;
-}*/
-
-
-header a:visited, header a, .heading{
-    color: #fff;
-} 
-
-header h1 {
-    font-size: 3.9rem;
-}
-
-header h2 {
-    font-size: 1.7rem;
-}
-
-header h1, h2, h3{
-    font-family: Inconsolata, monospace;
-}
-
-main h2, main h3 {
-    text-transform: uppercase;
-}
-
-a:hover {
-    color: #999;
-}
-
-h2{
-    font-weight: normal;
 }
